@@ -1,0 +1,10 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="UNIT">
+      <directory>vendor/securetrading/*/tests/unit/</directory>
+    </testsuite>
+    <testsuite name="INTEGRATION">
+      <directory>vendor/securetrading/*/tests/integration/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
