@@ -4,9 +4,7 @@
   "description" : "Secure Trading's unittest package providing helper methods/classes for writing testing with PHPUnit.",
   "license" : "MIT",
   "require" : {
-    "php" : ">=5.3.0"
-  },
-  "require-dev" : {
+    "php" : ">=5.3.0",
     "securetrading/unittest" : "dev-master"
   },
   "autoload" : {
