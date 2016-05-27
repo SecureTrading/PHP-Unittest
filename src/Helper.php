@@ -11,7 +11,7 @@ class Helper {
 	unlink($file);
       }
     }
-    @rmdir($dir);
+    rmdir($dir);
   }
 
   public function copySourceDirToTestDir($sourceDir, $destDir) {
