@@ -1,3 +1,3 @@
 # PHP-Unittest
 
-Beta module - in development.
+A helper package used by other Secure Trading packages.
