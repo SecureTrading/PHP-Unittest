@@ -9,6 +9,9 @@ class IntegrationtestAbstract extends UnittestAbstract {
     parent::__construct($name, $data, $dataName);
     $this->_helper = new Helper();
     $this->_testDir = $this->_helper->getTestDir('integration_tests');
+    if (!file_exists($this->_testDir)) {
+      mkdir($this->_testDir);
+    }
   }
 
   public function setUp() {
