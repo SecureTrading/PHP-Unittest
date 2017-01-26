@@ -50,6 +50,13 @@ abstract class UnittestAbstract extends \PHPUnit_Framework_TestCase {
     return $property->getValue($instance);
   }
 
+  protected function _setPrivateProperty($instance, $propertyName, $propertyValue) {
+    $reflection = new \ReflectionClass($instance);
+    $property = $reflection->getProperty($propertyName);
+    $property->setAccessible(true);
+    $property->setValue($instance, $propertyValue);
+  }
+
   public function _($instance, $methodName) {
     if (!is_object($instance)) {
       throw new \Exception('Object must be provided.');
