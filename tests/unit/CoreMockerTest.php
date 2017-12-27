@@ -4,7 +4,7 @@ namespace Securetrading\Unittest\Tests\Unit;
 
 use \Securetrading\Unittest\CoreMocker;
 
-class CoreMockerTest extends \PHPUnit_Framework_TestCase {
+class CoreMockerTest extends \PHPUnit\Framework\TestCase {    
   public function test_MockingSimpleReturnValue() {
     $this->assertEquals(array(), CoreMocker::getMockedFunctions());
 

@@ -2,7 +2,7 @@
 
 namespace Securetrading\Unittest;
 
-abstract class UnittestAbstract extends \PHPUnit_Framework_TestCase {
+abstract class UnittestAbstract extends \PHPUnit\Framework\TestCase {
   protected $_dataSets = array();
 
   protected function _addDataSet() {
