@@ -14,7 +14,7 @@ class IntegrationtestAbstract extends UnittestAbstract {
     }
   }
 
-  public function setUp() {
+  public function setUp() : void {
     $this->_helper->recursiveRemoveDirectory($this->_testDir);
     mkdir($this->_testDir);
   }
