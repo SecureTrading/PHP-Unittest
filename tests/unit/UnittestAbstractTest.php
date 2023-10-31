@@ -4,7 +4,7 @@ namespace Securetrading\Unittest;
 
 class UnittestAbstractTest extends \PHPUnit\Framework\TestCase {
 
-  public $_unittestAbstract = array();
+  public UnittestAbstract $_unittestAbstract;
 
   public function setUp() : void {
     $this->_unittestAbstract = $this->getMockForAbstractClass('\Securetrading\Unittest\UnittestAbstract');
