@@ -4,6 +4,7 @@ namespace Securetrading\Unittest;
 
 class IntegrationtestAbstract extends UnittestAbstract {
   protected $_testDir = '';
+  protected $_helper;
 
   public function __construct($name = null, array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
