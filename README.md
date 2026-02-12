@@ -6,8 +6,7 @@ A helper package used by other Secure Trading packages.
 
 | Version | Changes                                               |
 |---------|-------------------------------------------------------|
-| 4.0.3   | Correct tags                                          |
-| 4.0.2   | Updates to resolve pupunit vunl & 8.2 compatibility   |
+| 4.0.4   | Correct version misalignment + denpendancy fixes      |
 | 4.0.1   | Deprecation fixes                                     |
 | 4.0.0   | PHP 8.1 and 8.2 compatibility.                        |
 | 3.0.1   | composer.json file updated for PHP 8 support.         |
@@ -21,8 +20,7 @@ A helper package used by other Secure Trading packages.
 
 | Version | Changes                          |
 |---------|----------------------------------|
-| 4.0.3   | PHP 8.2                          |
-| 4.0.2   | PHP 8.2                          |
+| 4.0.4   | PHP 8.2                          |
 | 4.0.1   | PHP 8.1 - 8.2                    |
 | 4.0.0   | PHP 8.1 - 8.2                    |
 | 3.0.1   | PHP 7.3 - 7.X, PHP 8.0.0 - 8.0.3 |
